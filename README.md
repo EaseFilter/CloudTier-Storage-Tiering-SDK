@@ -68,7 +68,7 @@ The CloudTier Storage Tiering Demo demonstrates how to use the SDK. After the st
 
 * [Understand MiniFilter Driver](https://www.easefilter.com/kb/understand-minifilter.htm)
 * [Understand File I/O](https://www.easefilter.com/kb/File_IO.htm)
-* [Understand I/O Request Packets(IRPs)]https://www.easefilter.com/kb/understand-irps.htm)
+* [Understand I/O Request Packets(IRPs)](https://www.easefilter.com/kb/understand-irps.htm)
 * [Filter Driver Developer Guide](https://www.easefilter.com/kb/DeveloperGuide.htm)
 * [MiniFilter Filter Driver Framework](https://www.easefilter.com/kb/minifilter-framework.htm)
 * [Isolation Filter Driver](https://www.easefilter.com/kb/Isolation_Filter_Driver.htm)
