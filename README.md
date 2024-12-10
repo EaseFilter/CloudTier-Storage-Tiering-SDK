@@ -15,12 +15,13 @@ A stub file looks and acts like a regular file, it has the same file attributes 
 ## The Use Cases of CloudTier Storage Tiering
 Cloud storage tiering can be widely used in telecommunications, government, oil, medical and other industries.
 
-1. Healthcare Data Archiving. Healthcare providers are increasingly required to retain patient medical record data for multi-year periods. Storage requirements for patient data can quickly escalate when the records include high resolution images and ultrasound content.
-2. Business Policy Mandated Data Archiving. Companies can generate PB’s of data in the course of day to day operations and to meet legal compliance requirements. Archive Storage can work with Smart Archiving offerings from ISV’s to create a low cost, content archiving solution.
-3. Digital Media Content Retention. Creators can generate PB’s worth of video and picture content that is used in the development of original digital media. Archive Storage gives creators a low-cost storage repository for original source content. File-level tiering makes it easy to shift from cold to hot storage should the need arise to use that content for another project.
-4. Security/Public Safety data retention. As the number and sophistication of threats to personal and business safety continue to increase, so does the demand for video surveillance. Public and now private sector companies generate TB’s of surveillance footage daily in the course of protecting their citizens and assets. Archive Storage is a low-cost option for storing that data.
+1. **Healthcare Data Archiving.** Healthcare providers are increasingly required to retain patient medical record data for multi-year periods. Storage requirements for patient data can quickly escalate when the records include high resolution images and ultrasound content.
+2. **Business Policy Mandated Data Archiving.** Companies can generate PB’s of data in the course of day to day operations and to meet legal compliance requirements. Archive Storage can work with Smart Archiving offerings from ISV’s to create a low cost, content archiving solution.
+3. **Digital Media Content Retention.** Creators can generate PB’s worth of video and picture content that is used in the development of original digital media. Archive Storage gives creators a low-cost storage repository for original source content. File-level tiering makes it easy to shift from cold to hot storage should the need arise to use that content for another project.
+4. **Security/Public Safety data retention.** As the number and sophistication of threats to personal and business safety continue to increase, so does the demand for video surveillance. Public and now private sector companies generate TB’s of surveillance footage daily in the course of protecting their citizens and assets. Archive Storage is a low-cost option for storing that data.
 
 ## [The CloudTier Storage Tiering Demo](https://www.easefilter.com/cloud/cloudtier-storage-tiering-demo.htm)
+The CloudTier Storage Tiering Demo demonstrates how to use the SDK. After the stub file was generated, you can register the callback function for the file system filter driver. When the stub file was accessed, the callback function will be invoked, the callback function will retrieve the data from the remote server and send back to the filter driver.
 
 1.	Create the stub files first, go to tools->create stub test files.
 	By creating the stub file, you can move out your data to low-cost remote storage, 
@@ -51,7 +52,7 @@ Cloud storage tiering can be widely used in telecommunications, government, oil,
 ## EaseFilter SDK Sample Projects
 | Sample Project | Description |
 | --- | --- |
-| [CloudTier Storage Tiering Demo](https://www.easefilter.com/cloud/cloudtier-storage-tiering-demo.htm) | A HSM Filter Driver Demo. |
+| [CloudTier Storage Tiering Demo](https://www.easefilter.com/cloud/cloudtier-storage-tiering-demo.htm) | A HSM File System Filter Driver Demo. |
 | [Auto File DRM Encryption](https://www.easefilter.com/kb/auto-file-drm-encryption-tool.htm) | Auto file encryption with DRM data embedded. |
 | [Transparent File Encrypt](https://www.easefilter.com/kb/AutoFileEncryption.htm) | Transparent on access file encryption. |
 | [Secure File Sharing with DRM](https://www.easefilter.com/kb/DRM_Secure_File_Sharing.htm) | Secure encrypted file sharing with digital rights management. |
